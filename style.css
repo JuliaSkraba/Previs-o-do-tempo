@@ -1,0 +1,102 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    color: #333;
+    background: linear-gradient(135deg, #e8f4f8, #d9eaf7);
+    background-size: cover;
+    text-align: center;
+}
+
+/* Estilo do contêiner principal */
+#container {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 650px;
+    margin: 0 auto 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    color: #DA70D6;
+}
+
+/* Estilo dos botões */
+.button {
+    background-color: #DDA0DD;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo do botão ao passar o mouse */
+.button:hover {
+    background-color: #DA70D6;
+}
+
+/* Estilo da área de previsão do tempo */
+#weather {
+    margin-top: 20px;
+}
+
+/* Estilo do iframe do YouTube */
+iframe {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+}
+
+/* Estilo do contêiner da mensagem acima do vídeo */
+.message-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Estilo do conteúdo adicional */
+.content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Estilo do botão para voltar ao topo */
+.back-to-top {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilo do botão ao passar o mouse */
+.back-to-top:hover {
+    background-color: #DA70D6;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto 0;
+}

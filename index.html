@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Página de Previsão do Tempo</title>
+</head>
+<body>
+    <!-- Contêiner principal -->
+    <div id="container">
+        <h1>Data e Hora Atual</h1>
+        <p id="datetime"></p>
+        <button class="button" onclick="showWeather()">Mostrar Previsão do Tempo</button>
+        <div id="weather"></div>
+        <p>Digite o nome da cidade para ver a previsão:</p>
+        <input type="text" id="city" placeholder="Cidade" oninput="autocomplete()">
+        <button class="button" onclick="searchWeather()">Buscar</button>
+        <p id="city-name"></p>
+    </div>
+
+    <!-- Mensagem acima do vídeo -->
+    <div class="message-container">
+        <h2>Hora do café, veja a previsão do tempo escutando Vivaldi Springs</h2>
+    </div>
+   
+    <!-- Vídeo incorporado do YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mFWQgxXM_b8?si=U0btOlnt5YEQtd6y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Conteúdo sobre a transição do campo para a cidade -->
+    <div class="content">
+        <h2>Malefícios de não comer saudavelmente</h2>
+        <p>
+           Não comer saudavelmente pode ter uma série de efeitos negativos para a saúde, afetando praticamente todos os aspectos do corpo e da mente. Aqui estão alguns dos principais malefícios:
+       </p>
+        <p>
+           Aumento do Risco de Doenças Crônicas: Dietas pouco saudáveis, ricas em açúcares, gorduras saturadas e sódio, estão associadas a um maior risco de doenças cardíacas, hipertensão, diabetes tipo 2 e alguns tipos de câncer.
+
+           Problemas de Peso: O consumo excessivo de calorias e alimentos processados pode levar ao sobrepeso e obesidade, que são fatores de risco para diversas condições de saúde.
+
+           Dificuldades Digestivas: Uma dieta pobre em fibras pode causar constipação, problemas digestivos e aumentar o risco de doenças intestinais.
+           
+           Desnutrição: A falta de uma variedade de nutrientes essenciais pode levar a deficiências nutricionais, afetando a função imunológica, a saúde óssea e a integridade da pele.
+
+           Impacto na Saúde Mental: Há evidências que sugerem que uma dieta desequilibrada pode estar relacionada a problemas de saúde mental, como depressão e ansiedade.
+        </p>
+        <p>
+           Comprometimento da Energia e da Concentração: Dietas pobres podem afetar os níveis de energia e a capacidade de concentração, tornando mais difícil realizar atividades diárias e se manter produtivo.
+
+           Problemas Cardiovasculares: O consumo excessivo de alimentos ricos em gordura saturada e colesterol pode levar a problemas cardíacos e aterosclerose.
+
+           Impacto no Sistema Imunológico: Uma alimentação inadequada pode enfraquecer o sistema imunológico, tornando o corpo mais suscetível a infecções e doenças.
+
+           Problemas de Pele e Cabelo: A falta de vitaminas e minerais essenciais pode afetar a saúde da pele e do cabelo, levando a problemas como acne, ressecamento e queda de cabelo.
+
+           Comprometimento da Saúde Óssea: A falta de cálcio e vitamina D pode enfraquecer os ossos, aumentando o risco de osteoporose e fraturas.
+        </p>
+        <p>
+           Manter uma dieta equilibrada e nutritiva é fundamental para o bem-estar geral e para a prevenção de uma série de problemas de saúde. Se você está preocupado com seus hábitos alimentares, pode ser útil consultar um nutricionista ou profissional de saúde para orientação personalizada.
+        </p>
+        <a href="#" class="back-to-top" onclick="scrollToTop()">Voltar ao topo</a>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>Organização Colégio Otalipio 2° Técnico 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
